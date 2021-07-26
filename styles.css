@@ -1,0 +1,62 @@
+/* Style sheet */
+
+body{
+    
+    background-color: brown;
+}
+header{
+    width: 900px;
+    margin : auto;
+}
+h1{
+    font-style: italic;
+    font-weight: inherit;
+    text-align: center;
+    font-size: 100px;
+    color: yellow;
+    margin: 0;
+}
+
+div q{
+    color: black; 
+    font-size: 50px; 
+    font-style: italic;
+}
+
+div p{
+    font-size: 25px; 
+    font-style: normal; 
+    color: black;
+    text-align:right;
+}
+#content{
+    width: 900px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: aqua;
+    flex-direction: row; 
+    justify-content: center; /*nằm giữa màn hình */
+    /* align-items: center; */
+}
+
+.image {
+    margin: 5px;
+    float:left;
+    flex-basis: 290px;  
+    flex-grow: 1;
+
+}
+
+.image img {
+    max-width: 100%;
+    max-height: 100%;
+    min-height: 100%;
+    border-radius: 10px;
+    padding: 3px;
+    transition: 0.3s;
+}
+
+
+
+
